@@ -1,0 +1,52 @@
+/* =============================
+   🧩 ESTRUCTURA GENERAL
+============================= */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+body, #root {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #e6e6e6;
+}
+
+
+.nav-link-custom {
+  color: #e6e6e6 !important;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link-custom:hover {
+  color: #0dcaf0 !important; 
+  transform: translateY(-1px);
+}
+
+
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  background-color: #121212;
+  color: #e6e6e6;
+  border-top: 1px solid #2a2a2a;
+}
+
+.hover-link {
+  color: #e6e6e6;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.hover-link:hover {
+  color: #0dcaf0;
+  transform: translateY(-2px);
+}
+
+.list-group-item .fw-semibold { word-break: break-word; }
+.list-group-item .btn { transition: transform .15s ease; }
+.list-group-item .btn:hover { transform: translateY(-1px); }

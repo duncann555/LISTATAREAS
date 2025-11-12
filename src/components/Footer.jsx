@@ -12,7 +12,7 @@ const Footer = () => {
           href="https://github.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-light hover-link"
+          className="hover-link"
         >
           <FaGithub size={22} />
         </a>
@@ -21,14 +21,14 @@ const Footer = () => {
           href="https://linkedin.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-light hover-link"
+          className="hover-link"
         >
           <FaLinkedin size={22} />
         </a>
 
         <a
           href="mailto:tucorreo@ejemplo.com"
-          className="text-light hover-link"
+          className="hover-link"
         >
           <FaEnvelope size={22} />
         </a>
